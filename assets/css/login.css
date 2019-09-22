@@ -6,6 +6,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.papel {
+    position: relative;
+    top: -130px;
+
+}
 
 html,
 body,
@@ -233,7 +238,12 @@ textarea {
     input,
     select,
     textarea {
-        font-size: 14pt;
+        font-size: 12pt;
+    }
+
+    .subtitulo {
+        position: relative;
+        top: -70px;
     }
 
 }
@@ -323,7 +333,7 @@ h6 a {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     line-height: 1.2;
 }
 
@@ -2118,6 +2128,8 @@ form {
     margin: 0 0 2em 0;
 }
 
+
+
 label {
     display: block;
     font-size: 0.9em;
@@ -2498,6 +2510,7 @@ input[type="radio"]:focus + label:before {
 .image img {
     border-radius: 8px;
     display: block;
+
 }
 
 .image.left,
@@ -3139,12 +3152,13 @@ table.alt tbody tr td {
     padding: 0.65em;
     border-radius: 100%;
     border: solid 1px;
+
 }
 
 .spotlight .image img {
     display: block;
     border-radius: 100%;
-    width: 16em;
+    width: 6em;
 }
 
 @media screen and (max-width: 980px) {
@@ -3475,6 +3489,8 @@ body.is-preload #header.alt .logo {
         padding-top: 0;
     }
 
+
+
 }
 
 /* Main */
@@ -3489,6 +3505,7 @@ body.is-preload #header.alt .logo {
 #main select,
 #main textarea {
     color: #636363;
+
 }
 
 #main a:hover {
@@ -3508,6 +3525,8 @@ body.is-preload #header.alt .logo {
 #main h6 {
     color: #636363;
 }
+
+
 
 #main blockquote {
     border-left-color: #dddddd;
@@ -3735,12 +3754,14 @@ body.is-preload #header.alt .logo {
 }
 
 #main > .main {
+
     padding: 5em 5em 3em 5em;
     border-top: solid 1px #dddddd;
 }
 
 #main > .main:first-child {
     border-top: 0;
+
 }
 
 #main > .main > .image.main:first-child {
@@ -3750,6 +3771,7 @@ body.is-preload #header.alt .logo {
     border-top-left-radius: 0.25em;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+
 }
 
 #main > .main > .image.main:first-child img {
@@ -3770,6 +3792,7 @@ body.is-preload #header.alt .logo {
         width: calc(100% + 8em);
     }
 
+
 }
 
 @media screen and (max-width: 980px) {
@@ -3782,6 +3805,7 @@ body.is-preload #header.alt .logo {
         margin: -4em 0 4em -3em;
         width: calc(100% + 6em);
     }
+
 
 }
 
