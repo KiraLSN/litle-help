@@ -9,8 +9,52 @@
 .papel {
     position: relative;
     top: -130px;
+    margin: 0px;
+    height: 300px;
 
 }
+
+.spotlight {
+    position: relative;
+    top: -140px;
+    height: 300px;
+}
+
+.content {
+    height: 0px;
+}
+
+.major {
+    height: 0px
+}
+
+.subtitulo {
+    margin: 0px
+}
+
+footer {
+    height: 10px;
+    position: relative;
+    top: -200px;
+    z-index: -1;
+}
+
+.actions {
+    height: 20px;
+    z-index: -1;
+}
+
+.main {
+    height: 100px;
+}
+
+.login {
+    background-color: blue;
+}
+
+
+
+
 
 html,
 body,
