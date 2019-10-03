@@ -2128,7 +2128,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-    background-color: rgba(255, 255, 255, 0.075);
+    background-color: rgba(255, 25, 255, 0.075);
 }
 
 input[type="submit"]:active,
@@ -2201,9 +2201,10 @@ input[type="password"],
 input[type="email"],
 select,
 textarea {
-    -moz-appearance: none;
+    -moz-appearance: solid;
     -webkit-appearance: none;
     -ms-appearance: none;
+
     appearance: none;
     border-radius: 8px;
     border: solid 1px;
