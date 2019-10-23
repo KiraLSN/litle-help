@@ -39,27 +39,27 @@
                         <header class="major">
                             <h2 class="subtitulo">Formulario de Cadastro</h2>
                         </header>
-
-                        <input class="login" type="text" placeholder="Nome">
-                        <input class="login" type="text" placeholder="Matricula">
-                        <input class="login" type="text" placeholder="login">
-                        <input class="login" type="password" placeholder="Senha">
-                        <input class="login" type="password" placeholder="Confirmar Senha">
-                        <input class="login" type="text" placeholder="Departamento">
-                        <input class="login" type="text" placeholder="Ramal">
-                        <input class="login" type="text" placeholder="Celular">
-                        <input class="login" type="text" placeholder="E-Mail">
-                        <input class="login" type="text" placeholder="Cargo">
-                        <input class="login" type="radio">
-                        <input class="login" type="radio">
-
+                        <form method="post" action="cadastraUser.php">
+                            <input class="login" type="text" placeholder="Nome">
+                            <input class="login" type="text" placeholder="Matricula">
+                            <input class="login" type="text" placeholder="login">
+                            <input class="login" type="password" placeholder="Senha">
+                            <input class="login" type="password" placeholder="Confirmar Senha">
+                            <input class="login" type="text" placeholder="Departamento">
+                            <input class="login" type="text" placeholder="Ramal">
+                            <input class="login" type="text" placeholder="Celular">
+                            <input class="login" type="text" placeholder="E-Mail">
+                            <input class="login" type="text" placeholder="Cargo">
+                            <input class="login" type="radio">
+                            <input class="login" type="radio">
+                        </form>
                         <ul class="actions">
 
                             <li><a href="index.html" class="button">Cancelar</a></li>
-                            <li><a href="sucess.html" class="button">Cadastrar</a></li>
+                            <li><button type="submit" class="button">Cadastrar</button></li>
 
                         </ul>
-                        <p class="esqueci"><a href="">Esqueci minha senha</a></p>
+
                     </div>
                     <span class="image"><img src="images/pic01.jpg" alt="" /></span>
                 </div>
@@ -86,4 +86,6 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 
-</body></html>
+</body>
+
+</html>
