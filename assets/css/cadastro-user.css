@@ -29,7 +29,8 @@
 }
 
 .subtitulo {
-    margin: 0px
+    margin: 0px;
+    color: black;
 }
 
 footer {
@@ -50,6 +51,7 @@ footer {
 
 .login {
     background-color: blue;
+
 }
 
 .alt {
@@ -254,11 +256,7 @@ html {
 }
 
 body {
-    background-color: #935d8c;
-    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url(images/imgUser.jpg);
 }
 
 body.is-preload *,
@@ -277,7 +275,7 @@ body.is-preload *:after {
 /* Type */
 
 body {
-    background-color: #935d8c;
+
     color: rgba(255, 255, 255, 0.65);
 }
 
@@ -303,6 +301,7 @@ textarea {
     .subtitulo {
         position: relative;
         top: -70px;
+
     }
 
 }
@@ -3556,7 +3555,7 @@ body.is-preload #header.alt .logo {
 /* Main */
 
 #main {
-    background-color: #ffffff;
+    background-color: rgba(49, 102, 198, 0.3);
     color: #636363;
     border-radius: 0.25em;
 }
@@ -3674,7 +3673,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main label {
-    color: #636363;
+    color: black;
 }
 
 #main input[type="text"],
@@ -3729,23 +3728,23 @@ body.is-preload #header.alt .logo {
 }
 
 #main ::-webkit-input-placeholder {
-    color: rgba(99, 99, 99, 0.25) !important;
+    color: rgba(166, 16, 23, 0.75) !important;
 }
 
 #main :-moz-placeholder {
-    color: rgba(99, 99, 99, 0.25) !important;
+    color: rgba(166, 16, 23, 0.75) !important;
 }
 
 #main ::-moz-placeholder {
-    color: rgba(99, 99, 99, 0.25) !important;
+    color: rgba(166, 16, 23, 0.75) !important;
 }
 
 #main :-ms-input-placeholder {
-    color: rgba(99, 99, 99, 0.25) !important;
+    color: rgba(166, 16, 23, 0.75) !important;
 }
 
 #main .formerize-placeholder {
-    color: rgba(99, 99, 99, 0.25) !important;
+    color: rgba(166, 16, 23, 0.75) !important;
 }
 
 #main .icon.major {
