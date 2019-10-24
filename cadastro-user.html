@@ -7,7 +7,7 @@
 <html>
 
 <head>
-    <title>Little Help - Login</title>
+    <title>Little Help - Cadastro de Usuário</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/cadastro-user.css" />
@@ -40,18 +40,33 @@
                             <h2 class="subtitulo">Formulario de Cadastro</h2>
                         </header>
                         <form method="post" action="cadastraUser.php">
-                            <input class="login" type="text" placeholder="Nome">
-                            <input class="login" type="text" placeholder="Matricula">
-                            <input class="login" type="text" placeholder="login">
-                            <input class="login" type="password" placeholder="Senha">
-                            <input class="login" type="password" placeholder="Confirmar Senha">
-                            <input class="login" type="text" placeholder="Departamento">
-                            <input class="login" type="text" placeholder="Ramal">
-                            <input class="login" type="text" placeholder="Celular">
-                            <input class="login" type="text" placeholder="E-Mail">
-                            <input class="login" type="text" placeholder="Cargo">
-                            <input class="login" type="radio">
-                            <input class="login" type="radio">
+                            <label for="nome">Nome</label>
+                            <input class="login" id="nome" type="text" placeholder="Nome">
+                            <label for="matricula">Matricula</label>
+                            <input class="login" id="matricula" type="text" placeholder="Matricula">
+                            <label for="login">Login</label>
+                            <input class="login" id="login" type="text" placeholder="login">
+                            <label for="senha">Senha</label>
+                            <input class="login" id="senha" type="password" placeholder="Senha">
+                            <label for="csenha">Confirmar Senha</label>
+                            <input class="login" id="csenha" type="password" placeholder="Confirmar Senha">
+                            <label for="departamento">Departamento</label>
+                            <input class="login" id="departamento" type="text" placeholder="Departamento">
+                            <label for="ramal">Ramal</label>
+                            <input class="login" id="ramal" type="text" placeholder="Ramal">
+                            <label for="celular">Celular</label>
+                            <input class="login" id="celular" type="text" placeholder="Celular">
+                            <label for="email">E-Mail</label>
+                            <input class="login" id="email" type="text" placeholder="E-Mail">
+                            <label for="cargo">Cargo</label>
+                            <input class="login" id="cargo" type="text" placeholder="Cargo">
+                            <label for="nvl1">Nvl1</label>
+                            <input class="login" id="nvl1" type="radio">
+                            <label for="nvl2">Nvl2</label>
+                            <input class="login" id="nvl2" type="radio">
+                            <label for="nvl3">Nvl3</label>
+                            <input class="login" id="nvl3" type="radio">
+
                         </form>
                         <ul class="actions">
 
@@ -86,6 +101,4 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 
-</body>
-
-</html>
+</body></html>
