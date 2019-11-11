@@ -30,7 +30,7 @@
 
 .subtitulo {
     margin: 0px;
-    color: black;
+    color: white;
 }
 
 footer {
@@ -301,6 +301,7 @@ textarea {
     .subtitulo {
         position: relative;
         top: -70px;
+        color: aliceblue;
 
     }
 
@@ -2886,6 +2887,7 @@ footer.major {
 
     header.major h2 {
         font-size: 1.5em;
+
     }
 
     header.major p {
@@ -3555,7 +3557,7 @@ body.is-preload #header.alt .logo {
 /* Main */
 
 #main {
-    background-color: rgba(49, 102, 198, 0.3);
+    background-color: rgba(49, 102, 198, 0.9);
     color: #636363;
     border-radius: 0.25em;
 }
